@@ -1,0 +1,19 @@
+*{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box
+}
+html{
+  height: 100%;
+}
+.wrapper {
+    /*overflow: hidden;*/
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+h1 {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: calc(60 / 44 * 100%);
+    margin-bottom: 50px;
+}
